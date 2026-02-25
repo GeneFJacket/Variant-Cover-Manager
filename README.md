@@ -12,7 +12,13 @@
 
 📖 Overview
 The Variant Cover Manager is a specialized tool for digital comic collectors. It allows you to prune unwanted pages from existing .cbz or .zip archives and inject new variant covers with perfect resolution scaling, ensuring a seamless reading experience on any device.
-+1
+
+## 📸 Interface Preview
+
+<p align="center">
+  <img src="screenshot.png" alt="VCM 2.0 Interface Screenshot" width="800">
+</p>
+---
 
 🚀 Key Features
 
@@ -29,6 +35,8 @@ Smart Renaming: Automatically suggests save names based on your source file to p
 
 
 Injection Priority: Easily toggle variants between Front (before the story) and Back (after the story).
+
+---
 
 🛠 User Manual
 1. Loading a Source Comic
