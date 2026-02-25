@@ -18,9 +18,8 @@ The Variant Cover Manager is a specialized tool for digital comic collectors. It
 <p align="center">
   <img src="screenshot.png" alt="VCM 2.0 Interface Screenshot" width="800">
 </p>
----
 
-🚀 Key Features
+## 🚀 Key Features
 
 Dynamic Grid Layout: A responsive archive viewer that automatically reflows based on available space.
 
@@ -36,9 +35,8 @@ Smart Renaming: Automatically suggests save names based on your source file to p
 
 Injection Priority: Easily toggle variants between Front (before the story) and Back (after the story).
 
----
 
-🛠 User Manual
+## 🛠 User Manual
 1. Loading a Source Comic
 Click LOAD SOURCE COMIC in the top toolbar.
 
@@ -77,13 +75,13 @@ The app automatically suggests a name ending in _v2.
 
 Scaling Logic: The app identifies the size of original comic pages and resizes your variants to match exactly, preventing "jumping" or "black bars" when reading.
 
-🎨 Personalization
+## 🎨 Personalization
 
 Theme: Use the THEME dropdown to switch between Dark and Light modes.
 
 The interface, including the draggable divider, will adjust to your preference.
 
-📦 Technical Requirements
+## 📦 Technical Requirements
 
 Python 3.10+ 
 
@@ -93,7 +91,7 @@ Libraries: customtkinter, Pillow (PIL)
 
 Permissions: Requires permission to write to a temp directory for image processing.
 
-📜 Credits & License
+## 📜 Credits & License
 
 Built By: GeneJacket 
 
