@@ -1,180 +1,96 @@
 <p align="center">
+<img src="logo.png" alt="VCM Logo" width="300">
 
-&nbsp; <img src="logo.png" alt="VCM Logo" width="200">
 
+
+<b>Variant Cover Manager (VCM) 2.0</b>
+
+
+
+<i>Efficient Comic Archive Management & Cover Injection</i>
 </p>
 
-
-
-\# Variant Cover Manager (VCM) 2.0
-
-\[cite\_start]\*\*Efficient Comic Archive Management \& Cover Injection\*\*
-
-Variant Cover Manager (VCM) 2.0
-
-
-
-Efficient Comic Archive Management \& Cover Injection 
-
-
-
 📖 Overview
-
-The Variant Cover Manager is a specialized tool designed for digital comic collectors. It streamlines the process of cleaning up archives and adding new variant covers with professional-grade results.
-
-+2
-
-
-
-
-
-Prune Content: Easily remove unwanted pages, ads, or watermarks from .cbz and .zip archives.
-
-+2
-
-
-
-
-
-Smart Injection: Add new covers that are automatically resized to match the original comic's dimensions for a seamless reading experience.
-
+The Variant Cover Manager is a specialized tool for digital comic collectors. It allows you to prune unwanted pages from existing .cbz or .zip archives and inject new variant covers with perfect resolution scaling, ensuring a seamless reading experience on any device.
 +1
 
+🚀 Key Features
+
+Dynamic Grid Layout: A responsive archive viewer that automatically reflows based on available space.
 
 
-🚀 Key Features in VCM 2.0
+Draggable Interface: Adjust the balance between your workspace and your queue by dragging the center divider.
 
 
-
-Dynamic Grid Layout: A responsive viewer that reflows thumbnails based on your window size.
-
-+1
+Smart Resolution Scaling: Injected covers are automatically resized to match the dimensions of the original comic pages.
 
 
+Smart Renaming: Automatically suggests save names based on your source file to prevent accidental overwrites.
 
 
-
-Draggable Interface: Customize your workspace by dragging the center divider between the archive and the queue.
-
-+1
-
-
-
-
-
-Smart Resolution Scaling: Every injected cover is perfectly matched to the source file's resolution.
-
-+1
-
-
-
-
-
-Smart Renaming: Automatically suggests save names with a \_v2 suffix to protect your original files.
-
-+1
-
-
-
-
-
-Priority Placement: Toggle variants between FRONT (start of book) and BACK (end of book) with one click.
-
-+1
-
-
+Injection Priority: Easily toggle variants between Front (before the story) and Back (after the story).
 
 🛠 User Manual
+1. Loading a Source Comic
+Click LOAD SOURCE COMIC in the top toolbar.
 
-1\. Loading \& Organizing
+Select any .cbz or .zip file.
 
+The app will extract the archive to a temporary workspace and display the pages in the Archive Content pane.
 
+2. Organizing Archive Pages
 
-Load: Click LOAD SOURCE COMIC to extract your archive to a temporary workspace.
-
-+1
-
-
-
-
-
-Prune: Uncheck the box under any page to exclude it from the final saved file.
+Pruning: Uncheck the box under any page to exclude it from the final save—perfect for removing ads or watermarks.
 
 
+View Modes: Toggle between Standard Grid and Vertical List in the toolbar.
 
 
+Resizing the Pane: Click and drag the vertical bar between the grid and the sidebar to adjust your view; the grid will automatically recalculate columns.
 
-View: Toggle between Standard Grid and Vertical List to suit your workflow.
+3. Managing the Injection Queue
 
-
-
-2\. The Injection Queue
-
+Add: Click + ADD NEW COVERS to select JPG, PNG, or WebP files.
 
 
-Add: Use + ADD NEW COVERS to select JPG, PNG, or WebP files.
+Reorder: Use the ▲ and ▼ arrows to move variants up or down in the injection order.
 
 
+Placement: Toggle between FRONT (beginning of the archive) or BACK (end of the archive).
 
 
+Clear: Use the red X to remove a single cover or Clear All to reset the queue.
 
-Order: Use the ▲ and ▼ arrows to arrange your covers.
+4. Saving & Scaling
+Click PROCESS & SAVE CBZ.
 
-
-
-
-
-Remove: Click the red X to delete a single item or Clear All to reset the queue.
+The app automatically suggests a name ending in _v2.
 
 
+Scaling Logic: The app identifies the size of original comic pages and resizes your variants to match exactly, preventing "jumping" or "black bars" when reading.
 
-3\. Saving
+🎨 Personalization
 
-Click PROCESS \& SAVE CBZ. The app identifies the original page size and applies the scaling logic to all new covers before packing the new archive.
+Theme: Use the THEME dropdown to switch between Dark and Light modes.
 
-+1
-
-
+The interface, including the draggable divider, will adjust to your preference.
 
 📦 Technical Requirements
-
-
 
 Python 3.10+ 
 
 
+Libraries: customtkinter, Pillow (PIL) 
 
 
+Permissions: Requires permission to write to a temp directory for image processing.
 
-Required Libraries: customtkinter, Pillow (PIL) 
-
-
-
-
-
-Permissions: App requires write access to a temp directory for image processing.
-
-
-
-📜 Credits \& License
-
-
+📜 Credits & License
 
 Built By: GeneJacket 
-
-
-
 
 
 AI Collaborator: Gemini 
 
 
-
-
-
-License: This application is free for anyone to use, alter, and distribute.
-
-
-
-Feel free to fork the code, improve the features, and share it with the comic collecting community!
-
+License: This application is free for anyone to use, alter, and distribute. Feel free to fork the code, improve the features, and share it with the comic collecting community!
